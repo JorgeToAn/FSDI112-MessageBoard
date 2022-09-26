@@ -19,7 +19,8 @@ https://dashboard.heroku.com/apps
 -> http://whitenoise.evans.io/en/stable/django.html?highlight=local%20noserver#using-whitenoise-in-development
 7. Update project’s requirements.txt
 8. Collect static files – python3 manage.py collectstatic
-9. Log in to Heroku – heroku login
-10. Create the Heroku app – heroku create
-11. Push to the Heroku repository – git push heroku main
-12. Open the server – heroku open
+9. Update ALLOWED_HOSTS on settings.py to include localhosts and '.herokuapp.com'
+10. Log in to Heroku – heroku login
+11. Create the Heroku app – heroku create
+12. Push to the Heroku repository – git push heroku main
+13. Open the server – heroku open
