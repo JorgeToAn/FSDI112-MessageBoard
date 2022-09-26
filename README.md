@@ -5,7 +5,7 @@ It presents an app that lets you view posts in a list, in detail and create new 
 NOTE: The project doesn't have a home page, please go to '/posts' to enter the site.
 
 ## Heroku URL
-Add URL here
+https://warm-springs-26515.herokuapp.com/
 
 ## Heroku setup instructions
 https://dashboard.heroku.com/apps
@@ -14,7 +14,9 @@ https://dashboard.heroku.com/apps
 3. Install gunicorn – pip3 install gunicorn
 4. Configure gunicorn – gunicorn config.wsgi
 5. Install whitenoise – pip3 install whitenoise
-6. Configure config/settings.py for whitenoise - http://whitenoise.evans.io/en/stable/ -http://whitenoise.evans.io/en/stable/django.html?highlight=local%20noserver#using-whitenoise-in-development
+6. Configure config/settings.py for whitenoise
+-> http://whitenoise.evans.io/en/stable/ 
+-> http://whitenoise.evans.io/en/stable/django.html?highlight=local%20noserver#using-whitenoise-in-development
 7. Update project’s requirements.txt
 8. Collect static files – python3 manage.py collectstatic
 9. Log in to Heroku – heroku login
